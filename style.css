@@ -1,0 +1,25 @@
+@import url(node_modules/intl-tel-input/build/css/intlTelInput.min.css);
+@import url(node_modules/bootstrap/dist/css/bootstrap.min.css);
+
+.inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.header {
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px 10px 0 0;
+}
+.nav-link {
+    font-weight: 700;
+    color: rgba(82, 67, 67, 0.5);
+}
+label {
+    display: block;
+}
+#phone {
+    padding-right: 112px;
+}
+.error {
+    border-color: red;
+}

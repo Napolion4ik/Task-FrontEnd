@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script defer src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script defer src="node_modules/intl-tel-input/build/js/intlTelInput.min.js"></script>
+    <script defer  src="app.js"></script>
+</head>
+<body>
+    <div class="container-lg pt-4">
+        <header class="header mb-auto">
+            <div class="inner">
+                <h3 class="brand">
+                    Company
+                </h3>
+                <ul class="nav">
+                    <li class="nav-item">
+                      <a class="nav-link " href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="#" >More</a>
+                    </li>
+                  </ul>
+            </div>
+        </header>
+        <div class="row">
+            <div class="col-8">
+                <img style="max-width: 100%;" src="sandi-1.jpg" alt="cover">
+            </div>
+            <form role="form" class="form col-4">
+                <div class="form-group mt-2">
+                    <label for="first-name">
+                        First Name
+                    </label>
+                    <input type="text" class="form-control" id="first-name" placeholder="Enter first name">
+                </div>
+                <div class="form-group mt-2">
+                    <label for="last-name">
+                        Last Name
+                    </label>
+                    <input type="text" class="form-control" id="last-name" placeholder="Enter last name">
+                </div>
+                <div class="form-group mt-4">
+                    <label for="email">
+                        Email
+                    </label>
+                    <input type="text" class="form-control" id="email" placeholder="Enter Email">
+                </div>
+                <div class="form-group mt-4">
+                    <label for="phone">
+                        Phone
+                    </label>
+                    <input type="text" class="form-control bfh-phone" id="phone" placeholder="Enter Phone" data-country="countries-select">
+                </div>
+                <div class="form-group mt-4">
+                   <button type="submit" class="btn btn-success">
+                       Submit
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

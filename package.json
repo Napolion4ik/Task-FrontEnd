@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.0-beta1"
+  },
+  "devDependencies": {
+    "intl-tel-input": "^17.0.16"
+  },
+  "name": "workua",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
